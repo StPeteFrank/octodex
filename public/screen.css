@@ -24,10 +24,11 @@ li {
   margin-right: 4px;
   font-size: 13px;
 }
+/* Listing shells */
 .shell {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center
+  justify-content: center;
 }
 .img-shell img {
   width: 424px;
@@ -61,8 +62,10 @@ li {
   border: 1px solid transparent;
   border-radius: 3px;
 }
+/* A good footer to use */
 footer {
-  width:inherit;
+  width: inherit;
+  margin-top: 88px;
 }
 .footer-border {
   border-top: 1px solid #ddd;
@@ -80,17 +83,21 @@ footer {
   margin-right: 1rem;
   color: #4183c4;
 }
+/* how to hover */
 .footer-left li:hover {
   text-decoration: underline;
 }
 .footer-right p {
   line-height: 0.5rem;
   margin-right: 1rem;
+  color: grey;
+  font-size: 12px;
 }
+/* From Font Awesome */
 .fa-github {
   font-size: 1.5rem;
   color: #ccc;
 }
 .fa-github:hover {
   color: rgb(145, 145, 145);
-}*/
+}
